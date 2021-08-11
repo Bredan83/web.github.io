@@ -80,8 +80,9 @@ img {
 }
 
 #lablec img:hover {
-	width: 150px;
-	margin: 5px;
+	width: 110px;
+	margin: 30px;
+	border: 0;
 }
 
 section {
