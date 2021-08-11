@@ -30,7 +30,7 @@ container {
 
 #koz {
 	background: lightblue;
-	flex-grow: 15;
+	flex-grow: 20;
 	opacity: 0.5;
 }
 
@@ -65,7 +65,6 @@ container {
 
 #lablec {
 	height: 100px;
-	background: lightblue;
     margin-top: 20px;
     display: flex;
     justify-content: space-around;
