@@ -28,10 +28,6 @@ container {
   	justify-content: space-around;
 }
 
-.nyil.jobb {
-	-webkit-transform: scaleX(-1);
-}
-
 #koz {
 	background: lightblue;
 	flex-grow: 15;
@@ -47,6 +43,20 @@ container {
 
 .nyil {
 	box-shadow: 0 0 0 0;
+	height: 30px;
+	border: 0;
+}
+
+.nyil.jobb {
+	transform: rotate(0.5turn);
+}
+
+#bal:hover {
+	background: -webkit-linear-gradient(left,white 0%, rgb(189, 188, 188) 100%);
+}
+
+#jobb:hover {
+	background: -webkit-linear-gradient(left,rgb(189, 188, 188)  0%,white 100%);
 }
 
 #lablec {
@@ -67,7 +77,6 @@ img {
 	height: 100px;
   	border: 0;
 }
-
 
 section {
  	display: inline;
